@@ -17,7 +17,7 @@
 
 ## Implementation
 &ensp;&ensp;&ensp;The laboratory work was implemented in Python v3.9.2. Each type of the cipher is implemented in a different class. You can test the implementations by following the next steps:
-- Open the main.impy file in a python compatible editor (make sure all the files are in the same directory upon downloading)
+- Open the main.ipynb file in a python compatible editor (make sure all the files are in the same directory upon downloading)
 - Run the code
 - Provide a message you want to be encrypted
 - Select the method of encryption by typing one of the following keywords:
@@ -25,7 +25,7 @@
 ``` 2 ``` - Caesar cipher variant 2,
 ``` 3 ``` - Vigenere cipher,
 ``` 4 ``` - Playfair cipher
-- The encrypted message will be apear as an output. You will be asked if you want to decrypt this message. Type y (YES) or n (NO).
+- The encrypted message will apear as an output. You will be asked if you want to decrypt this message. Type ```y``` (YES) or ```n``` (NO).
 
 &ensp;&ensp;&ensp; For a better experience, please read and respect the technical specifications before trying to run the program:
 - The ciphers were implemented only for the English alphabet. Do not use any other languages's symbols.
