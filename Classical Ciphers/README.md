@@ -21,10 +21,10 @@
 - Run the code
 - Provide a message you want to be encrypted
 - Select the method of encryption by typing one of the following keywords:
-&ensp;&ensp; -- ``` 1 ``` - Caesar cipher variant 1
-&ensp;&ensp; -- ``` 2 ``` - Caesar cipher variant 2
-&ensp;&ensp; -- ``` 3 ``` - Vigenere cipher
-&ensp;&ensp; -- ``` 4 ``` - Playfair cipher
+-- ``` 1 ``` - Caesar cipher variant 1
+-- ``` 2 ``` - Caesar cipher variant 2
+-- ``` 3 ``` - Vigenere cipher
+-- ``` 4 ``` - Playfair cipher
 - The encrypted message will be apear as an output. You will be asked if you want to decrypt this message. Type y (YES) or n (NO).
 
 &ensp;&ensp;&ensp; For a better experience, please read and respect the technical specifications before trying to run the program:
