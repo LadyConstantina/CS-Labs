@@ -21,14 +21,14 @@
 - Run the code
 - Provide a message you want to be encrypted
 - Select the method of encryption by typing one of the following keywords:
--- ``` 1 ``` - Caesar cipher variant 1
--- ``` 2 ``` - Caesar cipher variant 2
--- ``` 3 ``` - Vigenere cipher
--- ``` 4 ``` - Playfair cipher
+``` 1 ``` - Caesar cipher variant 1,
+``` 2 ``` - Caesar cipher variant 2,
+``` 3 ``` - Vigenere cipher,
+``` 4 ``` - Playfair cipher
 - The encrypted message will be apear as an output. You will be asked if you want to decrypt this message. Type y (YES) or n (NO).
 
 &ensp;&ensp;&ensp; For a better experience, please read and respect the technical specifications before trying to run the program:
 - The ciphers were implemented only for the English alphabet. Do not use any other languages's symbols.
-- The ciphers are programmed to understand only all-characters messages. Do not use numbers or any characters, other than ``` . ? ! ``` and upper or lower letters.
+- The ciphers are programmed to understand only all-characters messages. Do not use numbers or any symbols, other than ``` . ``` and upper or lower letters.
 
 &ensp;&ensp;&ensp; In the following chapters you can find more details regarding the implementation of each type of cipher.
