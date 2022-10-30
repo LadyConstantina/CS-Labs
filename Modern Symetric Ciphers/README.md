@@ -15,7 +15,7 @@
 
 ## Technical Specifications
 &ensp;&ensp;&ensp; The laboratory work was implemented in Python v3.9.2. Each type of cypher is implemented in a different class. You can test the implementations by following the next steps:    
-- Open the main.impy file in a python compatible editor (make sure all the files are in the same directory upon downloading)      
+- Open the main.ipynb file in a python compatible editor (make sure all the files are in the same directory upon downloading)      
 - Run the code     
 - Select the method of encryption by typing one of the following keys:      
 &ensp;&ensp; ``` 1 ``` - Rabbit Cipher     
@@ -27,7 +27,7 @@
 - The cyphers were implemented only for decimal digits [0-9]. Do not use any other symbols.     
 - The cyphers are programmed to understand only all-numbers messages. Do not use letters or any symbols, nor spaces.     
        
-&ensp;&ensp;&ensp; If you want to test the code, access the file testcode.impy in a python compatible editor.              
+&ensp;&ensp;&ensp; If you want to test the code, access the file testcode.ipynb in a python compatible editor.              
 &ensp;&ensp;&ensp; In the following chapters, you can find more details regarding the implementation of each type of cipher.
 
 ## Rabbit Cipher
