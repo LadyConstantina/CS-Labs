@@ -13,7 +13,7 @@
        
 ## Technical Specifications
 &ensp;&ensp;&ensp; The laboratory work was implemented in Python v3.9.2. You can test the implementation by following the next steps:       
-- Open the main.impy file in a python compatible editor (make sure all the files are in the same directory upon downloading)       
+- Open the main.ipynb file in a python compatible editor (make sure all the files are in the same directory upon downloading)       
 - Run the code       
              
 &ensp;&ensp;&ensp; If you want to test the code, access the file testcode.ipynb in a python compatible editor and you will see the implementation. Every step is commented on carefully and an example is analysed in the following chapter.       
