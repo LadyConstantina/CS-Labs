@@ -27,7 +27,7 @@
 - The cyphers were implemented only for decimal digits [0-9]. Do not use any other symbols.     
 - The cyphers are programmed to understand only all-numbers messages. Do not use letters or any symbols, nor spaces.     
        
-&ensp;&ensp;&ensp; If you want to test the code, access the file testcode.impy in a python compatible editor.
+&ensp;&ensp;&ensp; If you want to test the code, access the file testcode.impy in a python compatible editor.              
 &ensp;&ensp;&ensp; In the following chapters, you can find more details regarding the implementation of each type of cipher.
 
 ## Rabbit Cipher
