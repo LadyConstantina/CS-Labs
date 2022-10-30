@@ -16,7 +16,7 @@
 - Open the main.impy file in a python compatible editor (make sure all the files are in the same directory upon downloading)       
 - Run the code       
              
-&ensp;&ensp;&ensp; If you want to test the code, access the file testcode.impy in a python compatible editor and you will see the implementation. Every step is commented on carefully and an example is analysed in the following chapter.       
+&ensp;&ensp;&ensp; If you want to test the code, access the file testcode.ipynb in a python compatible editor and you will see the implementation. Every step is commented on carefully and an example is analysed in the following chapter.       
        
 &ensp;&ensp;&ensp; The cypher is compatible with any ASCII characters. Feel free to introduce any characters in the message you want to encrypt.       
 &ensp;&ensp;&ensp; In the following chapter, you can find a detailed example with code snippets for a better understanding of how things work.       
