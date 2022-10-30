@@ -31,6 +31,7 @@
 - The cyphers were implemented only for the English alphabet. Do not use any other language symbols.
 - The cyphers are programmed to understand only all-characters messages. Do not use numbers or any symbols, other than ``` . ``` upper or lower letters and spaces.
 
+&ensp;&ensp;&ensp; If you want to test the code, you can see it in the testcode.ipynb file, carefully commented out.          
 &ensp;&ensp;&ensp; In the following chapters, you can find more details regarding the implementation of each type of cypher.
 
 ## Caesar Cypher version 1
