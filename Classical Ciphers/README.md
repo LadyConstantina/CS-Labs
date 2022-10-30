@@ -17,7 +17,7 @@
 
 ## Technical Specifications
 &ensp;&ensp;&ensp; The laboratory work was implemented in Python v3.9.2. Each type of cypher is implemented in a different class. You can test the implementations by following the next steps:
-- Open the main.impy file in a python compatible editor (make sure all the files are in the same directory upon downloading)
+- Open the main.ipynb file in a python compatible editor (make sure all the files are in the same directory upon downloading)
 - Run the code
 - Provide a message you want to be encrypted
 - Select the method of encryption by typing one of the following keys:    
