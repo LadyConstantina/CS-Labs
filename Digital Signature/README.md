@@ -26,17 +26,17 @@
        
 ## Digital Signature applied (using RSA)       
 &ensp;&ensp;&ensp; **RSA** (**Rivest–Shamir–Adleman**) is a public-key cryptosystem that is widely used for secure data transmission. It is also one of the oldest.        
-&ensp;&ensp;&ensp; The method uses the following 4 components:       
-	1. 2 different prime numbers which helps in computing the public and private keys. In our example:
-		```
-		prime 1 = 1051446937579387829
-		prime 2 = 696907085081608369
-		```       
-	2. A public key  *N = prime<sub>1</sub> x prime<sub>2</sub>*. In our example:
+&ensp;&ensp;&ensp; The method uses the following 4 components:              
+1. 2 different prime numbers which helps in computing the public and private keys. In our example:                    
+	```               
+	prime 1 = 1051446937579387829                             
+	prime 2 = 696907085081608369                                 
+	```                   
+2. A public key  *N = prime<sub>1</sub> x prime<sub>2</sub>*. In our example:
 	```N = 732760820386434997658767113743140901```       
-	3. A public key *E* which does not share a factor with *(prime<sub>1</sub> - 1) x (prime<sub>2</sub> - 1)*. In our example:
+3. A public key *E* which does not share a factor with *(prime<sub>1</sub> - 1) x (prime<sub>2</sub> - 1)*. In our example:
 	```E = 65537```       
-	4. A private key which is *E<sup>-1</sup> mod ((prime<sub>1</sub> - 1) x (prime<sub>2</sub> - 1))*. In our example:
+4. A private key which is *E<sup>-1</sup> mod ((prime<sub>1</sub> - 1) x (prime<sub>2</sub> - 1))*. In our example:
 	```Private Key = 575356501766415283802339857698644801```       
 
 Using these components, the Sender follows the steps for generating and sending a message:       
