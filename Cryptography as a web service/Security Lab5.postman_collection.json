@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "08e89e3d-e44c-425b-8b1f-7fe76728c746",
+		"name": "Security Lab5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23286728"
+	},
+	"item": [
+		{
+			"name": "NEW_USER1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\" : \"Ana\",\r\n    \"Surname\" : \"Gîlca\",\r\n    \"Email\" : \"constantinagilca@gmail.com\",\r\n    \"Password\" : \"password1\",\r\n    \"Access\":\"Premium\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/adduser",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"adduser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEW_USER2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\" : \"Constantina\",\r\n    \"Surname\" : \"Gîlca\",\r\n    \"Email\" : \"constantina.gilca@isa.utm.md\",\r\n    \"Password\" : \"password2\",\r\n    \"Access\":\"Basic\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/adduser",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"adduser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEW_USER3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\" : \"Maria\",\r\n    \"Surname\" : \"Gîlca\",\r\n    \"Email\" : \"constantina.gilca@outlook.com\",\r\n    \"Password\" : \"password3\",\r\n    \"Access\":\"Premium\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/adduser",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"adduser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN_USER1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\" : \"constantinagilca@gmail.com\",\r\n    \"Password\" : \"password1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/getaccess",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"getaccess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN_USER2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\" : \"constantina.gilca@isa.utm.md\",\r\n    \"Password\" : \"password2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/getaccess",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"getaccess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN_USER3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\" : \"constantina.gilca@outlook.com\",\r\n    \"Password\" : \"wrongpassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/getaccess",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"getaccess"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
